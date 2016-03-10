@@ -1,3 +1,9 @@
 name: Georg
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+gems: [liquid_pluralize]

@@ -1,6 +1,28 @@
-- name: First project
-  about: nothing
+languages:
+  -
+    name: Java
+    projects:
+      - name: Kingdom of Great Georg
+        link: kingdom-of-great-georg.html
+      - name: Great Georg Jumper
+        link: great-georg-jumper.html
+      - name: Lindenmayer Systems Painter
+        link: lindenmayer-systems-painter.html
 
-- name: Second project
-  about: nothing too
+  -
+    name: Pascal
+    projects:
+      - name: Hadik Experiences 2
+        link: hadik-experiences-2.html
+      - name: Pig Runners
+        link: pig-runners.html
+      - name: Game 15
+        link: game-15.html
+      - name: Game of Life
+        link: game-of-life.html
+  -
+    name: PHP
+    projects:
+      - name: Program simulating database actions
+        link: simulate-database-actions.html
 
