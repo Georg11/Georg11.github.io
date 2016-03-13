@@ -1,7 +1,7 @@
 body {
     margin: 60px auto;
     width: 75%;
-    background-color: #e5e5e5;
+    background-color: #0099ff;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -19,20 +19,16 @@ footer ul li {
 }
 a {
     text-decoration: none;
-    color: #666;
+    color: #cccc00;
 }
 a:hover {
     text-decoration: underline;
-    color: #222
-}
-h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    color: #4d4d00
 }
 p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
+    font-size: 1.2em;
+    line-height: 1.1em;
+    color: black;
 }
 footer {
     border-top: 1px solid #d5d5d5;
