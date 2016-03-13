@@ -6,6 +6,8 @@ Main content is in parts Home, Projects, Blog. Others are still in progress.
 
 [This tutorial](http://jmcglone.com/guides/github-pages/) was starting point for this pages.
 
+Tested in Chromium browser.
+
 ## Used plugins:
 
 [Pluralize](https://github.com/bdesham/pluralize)
