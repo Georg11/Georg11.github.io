@@ -6,6 +6,6 @@ comment: "this is just remark post"
 tags: "remark mark seen"
 ---
 
-I noticed something about MasterCard. They have interesting logo :smile:
+I noticed something about MasterCard. They have interesting logo :smile: .
 <br><br>
 <img src="{{ site.url }}/assets/MasterCard_logo.jpg" width="320" height="220">
