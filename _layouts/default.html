@@ -6,29 +6,36 @@
         <link rel="stylesheet" type="text/css" href="/css/main.css">
     </head>
     <body>
-        <nav>
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/about">About</a></li>
-                <li><a href="/cv">CV</a></li>
-                <li><a href="/projects">Projects</a></li>
-                <li><a href="/blog">Blog</a></li>
-                <li><a href="/web_publishing">Web Publishing</a></li>
-            </ul>
-        </nav>
+        <div class="pageMiddle">
+            <div class="pageMiddleLeft">
+                <nav>
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/about">About</a></li>
+                        <li><a href="/cv">CV</a></li>
+                        <li><a href="/projects">Projects</a></li>
+                        <li><a href="/blog">Blog</a></li>
+                        <li><a href="/web_publishing">Web publishing</a></li>
+                        <li>:eyes:</li>
+                    </ul>
+                </nav>
+            </div>
 
-        <div class="container">
-
-        {{ content }}
-
+            <div class="pageMiddleCenter">
+                {{ content }}
+            </div>
         </div>
 
-        <br>
-        <footer>
-            <ul>
-                <li><a href="mailto:juraj.246@gmail.com">email</a></li>
-                <li><a href="https://github.com/georg11">github.com/georg11</a></li>
-            </ul>
-        </footer>
+        <br><br>
+
+        <div class="pageBottom">
+            <footer>
+                <ul>
+                    <li><a href="mailto:juraj.246@gmail.com">email</a></li>
+                    <li><a href="https://github.com/georg11">github.com/georg11</a></li>
+                    <li>:octocat:</li>
+                </ul>
+            </footer>
+        </div>
     </body>
 </html>

@@ -2,8 +2,9 @@
 layout: post
 title: "Remark about MasterCard"
 date: 2016-03-03
-comment: "remark"
+comment: "this is just remark post"
+tags: "remark mark seen"
 ---
 
-I notices something about MasterCard. They have interesting logo :-)
+I noticed something about MasterCard. They have interesting logo :smile:
 <img src="{{ site.url }}/assets/MasterCard_logo.jpg" width="320" height="220">

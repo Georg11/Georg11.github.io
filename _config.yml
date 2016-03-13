@@ -6,4 +6,4 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
 
-gems: [liquid_pluralize]
+gems: ["liquid_pluralize", "jemoji"]

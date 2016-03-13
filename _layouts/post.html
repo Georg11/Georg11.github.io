@@ -9,18 +9,33 @@ layout: default
   {{ content }}
 </div>
 
+<br>
+
 <div>
-    {{page.comment}}
+    <span> :+1: </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <span> :-1: </span>
 </div>
 
 <br>
 
 <div>
-    {%if page.previous != nil%}
+    [{{page.comment}}]
+</div>
+
+<br>
+
+<div>
+    Tags: {{ page.tags | array_to_sentence_string }}
+</div>
+
+<br>
+
+<div>
+    {% if page.previous.url %}
         <a href="{{page.previous.url}}"><< previous post</a>
-    {%endif%}
+    {% endif %}
     |
-    {%if page.next != nil%}
+    {% if page.next.url %}
         <a href="{{page.next.url}}">next post >></a>
-    {%endif%}
+    {% endif %}
 </div>

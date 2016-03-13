@@ -1,6 +1,7 @@
 body {
     margin: 60px auto;
-    width: 70%;
+    width: 75%;
+    background-color: #e5e5e5;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -8,16 +9,21 @@ nav ul, footer ul {
     list-style: none;
     font-weight: bold;
 }
-nav ul li, footer ul li {
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+footer ul li {
     display: inline;
     margin-right: 20px;
 }
 a {
     text-decoration: none;
-    color: #999;
+    color: #666;
 }
 a:hover {
     text-decoration: underline;
+    color: #222
 }
 h1 {
     font-size: 3em;
