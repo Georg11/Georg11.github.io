@@ -6,5 +6,42 @@ title: "Web publishing"
 <div>
     <ul>
         <li>1. project are these GitHub Pages</li>
+
+        <li>2. project is transformation of DocBook XML document to PDF</li>
+    </ul>
+</div>
+
+<br>
+
+<div>
+	<h2>DocBook</h2>
+	
+    Dokument je typu book s jazykom sk. Boli použité nasledujúce konštrukcie na splnenie požiadaviek:
+    
+    <ul>
+        Na členenie na kapitoly je použitý tag &lt;chapter&gt; a na členenie na podkapitoly je použitý tag &lt;section&gt;.
+        Príloha je vytvorená cez tag &lt;appendix&gt;.
+        Obsah je automaticky vygenerovaný vďaka XSL transformácií.
+		<br><br>
+        Na zvýraznenie slov je použitý tag &lt;emphasis role="bold"&gt;.
+        Členenie textu na odrážky a číslovanie je spravené cez tagy &lt;itemizedlist&gt; a &lt;orderedlist&gt;.
+		<br><br>
+        Odkazy na iné časti dokumentu, napr. vety, obrázky, kapitoly je spravené cez tag &lt;xref linkend="fig-bst-insert-2" xrefstyle="select: labelnumber"/&gt;, kde "fig-bst-insert-2" je id elementu, na ktorý sa chceme odkázať a "select: labelnumber" znamená, že sa zobrazí iba číselné označenie tohto elementu.
+		<br><br>
+        Poznámky pod čiarou sú spravené cez tag &lt;footnote&gt;.
+        <br><br>
+        Na zoznam použitej literatúry je použitý tag &lt;bibliography&gt; a na daný zdroj sa potom odkazujem cez &lt;citation&gt;.
+        <br><br>
+        Tabuľky a obrázky sú vložené cez tagy &lt;table&gt; a &lt;figure&gt;. Ich zoznam je automaticky vygenerovaný vďaka XSL transformácií.
+        <br><br>
+        Na register pojmov sú použité tagy &lt;indexterm&gt;, &lt;primary&gt;, &lt;secondary&gt; a samotný register sa zobrazý použitím tagu &lt;index&gt;.
+        <br><br>
+        Ďalej bol použitý tag &lt;programlisting&gt; na vypísanie pseudo kódu.
+        Na začiatku sú v tagu &lt;bookinfo&gt; informácie, ktorá sa zobrazia na úvodnej strane a v abstrakte.
+        Tag &lt;equation&gt; bol použitý na vypísanie pravidla, ktoré je v texte spomínané.
+        <br><br>
+        Zmeny boli robené aj v súboroch thesis.xsl, kde som napr. doplnil template pre tag &lt;mathphrase&gt;, nastavil som aby sa popisy generovali nad objekty, zrušil som zbytočne generované názvy objektov, pridal som generovanie zoznamov.
+        <br>
+        Zmeny boli robené taktiež v thesis-tp-fo.xsl, kde som napr. zrušil zobrazenie obrázku na úvodnej strane, opravil som zalomenie textu "v Bratislave".
     </ul>
 </div>
